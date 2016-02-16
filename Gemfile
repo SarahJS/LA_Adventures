@@ -13,6 +13,10 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+#Use rspec for test:
+group :test do
+  gem 'rspec'
+end
 # Use carrierwave to upload files in rails.
 gem 'carrierwave'
 # Use SCSS for stylesheets
